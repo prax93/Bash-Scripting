@@ -1,23 +1,22 @@
 #!/usr/bin/env bash
 
-
 # Auto Installation Process
 
-
-while true; do
-    read -p "Punday ? " yn
-    case $yn in
-        [Yy]* ) echo Hi Punday;;
-        [Nn]* ) echo still Punday;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
-
-
-
-
+#Update & Upgrade
+sudo apt update && sudo apt upgrade
+#Nano
+sudo apt install nano
+#Deluge
+#PlexMediaServer
+#Python
+sudo apt install python3
+#Adguard
+#Docker
+User=$(users)
 
 
+
+mkdir ~/test
 
 
 
